@@ -17,7 +17,7 @@ const Navbar = () => {
       </button>
 
       {showMenu && (
-       <div className="absolute top-16 left-0 mt-1 bg-customGreen p-10 rounded shadow-md w-60 h-96 border-2 border-red-400">
+       <div className="absolute top-16 left-0 mt-1 bg-customGreen p-10 rounded shadow-md w-60 h-96 ">
        <ul>
          <li className="mb-2">
            <Link to="/" className="flex items-center my-6 text-white font-serif size-10" onClick={() => setShowMenu(false)}>
